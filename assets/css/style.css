@@ -1,0 +1,55 @@
+html { 
+    background: url("../images/stars-bg.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Audiowide', cursive;
+    font-size: 35px;
+    color: #ffeb1f;
+  }
+  
+  button > img {
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+  }
+  
+  .name {
+    position: absolute;
+    top: 8px;
+    left: 15%;
+  }
+  
+  .hit-points {
+    position: absolute;
+    bottom: 8px;
+    right: 35px;
+  }
+  
+  .select {
+    position: relative;
+    border: 5px solid #ffeb1f;
+    margin: 5px;
+  }
+  
+  .fighter {
+    position: relative;
+    border: 5px solid green;
+  }
+  
+  .enemy {
+    position: relative;
+    border: 5px solid red;
+    background-color: black;
+    color: white;
+    margin: 5px;
+  }
+  
+  .defender {
+    position: relative;
+    border: 5px solid red;
+    background-color: black;
+    color: white;
+  }
+  

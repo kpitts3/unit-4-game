@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Star Wars RPG</title>
+</head>
+<body>
+
+  <header>Star Wars RPG</header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="selectCharacter">
+          <button id="charOne" class="select"><img src="assets/images/macewindu.jpg" alt="Mace Windu"><div class="name">Mace Windu</div>
+            <div class="hit-points mace-hp"></div></button>
+          <button id="charTwo" class="select"><img src="assets/images/darthvader.jpg" alt="Darth Vader"><div class="name">Darth Vader</div>
+            <div class="hit-points vader-hp"></div></button>
+          <button id="charThree" class="select"><img src="assets/images/yoda.jpg" alt="Yoda"><div class="name">Yoda</div>
+            <div class="hit-points yoda-hp"></div></button>
+          <button id="charFour" class="select"><img src="assets/images/darthmaul.jpg" alt="Darth Maul"><div class="name">Darth Maul</div>
+            <div class="hit-points maul-hp"></div></button>
+        </div>
+        <div>Your Character</div>
+        <div id="activeChar"></div>
+        <div>Enemies Available To Attack</div>
+        <div id="enemies"></div>
+        <div>Fighting</div>
+        <button id="attack">Attack</button>
+        <div>Defender</div>
+        <div id="defender"></div>
+        <div id="fight-text"></div>
+        <button id="reset">Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
